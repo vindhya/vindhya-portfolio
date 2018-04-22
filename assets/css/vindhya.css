@@ -2,10 +2,11 @@
 	--main-color: #ff3b3f;
 	--accent-color: #caebf2;
 	--text-color: #545454;
+	--select-color: #ff6b6e;
 }
 
 ::selection {
-	background: var(--accent-color);
+	background: var(--select-color);
 }
 
 body {
