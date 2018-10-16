@@ -77,23 +77,11 @@ img {
 #about, #contact {
 	height: 200px;
 	transition: background-color 0.6s ease;
-}
-
-#about {
-	background: var(--text-color);
-	color: var(--accent-color);
-}
-
-#about:hover {
 	background: var(--accent-color);
 	color: var(--text-color);
 }
 
-#contact {
-	background: var(--accent-color);
-}
-
-#contact:hover {
-	background: var(--main-color);
+#about:hover, #contact:hover {
+	background: var(--text-color);
 	color: var(--accent-color);
 }
